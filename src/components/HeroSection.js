@@ -15,7 +15,7 @@ const HeroSection = ({ theme }) => {
   const getItem = async (cryptoName) => {
     setIsLoading(true);
     const response = await axios
-      .get(`${process.env.BASE_PATH}/item/${cryptoName}`)
+      .get(`${process.env.GATSBY_BASE_PATH}/item/${cryptoName}`)
       .then((response) => {
         setItem(response.data);
         setTimeout(() => {
