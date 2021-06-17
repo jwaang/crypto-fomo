@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.development`,
+});
+
 module.exports = {
   siteMetadata: {
     title: "Crypto FOMO",
@@ -7,6 +11,7 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
+    `gatsby-plugin-nodejs`,
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
