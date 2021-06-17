@@ -1,4 +1,3 @@
-require("dotenv").config({ path: "../../.env.development" });
 const mongoose = require("mongoose");
 
 mongoose.connect(process.env.MONGODB_URL, {

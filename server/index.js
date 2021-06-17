@@ -1,4 +1,3 @@
-require("dotenv").config({ path: "../.env.development" });
 const express = require("express");
 require("./db/mongoose");
 const gatsby = require("gatsby-plugin-nodejs");
