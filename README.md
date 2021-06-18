@@ -1,8 +1,14 @@
 # crypto-fomo 😱
 
-## :beginner: About
+### :beginner: About
 
-TODO
+Ever wondered how much money you would have if you invested in crypto earlier? Well now you can with crypto-fomo!
+
+Come give it a try [here](https://crypto-fomo.netlify.app/)!
+
+### :building_construction: Built With
+
+- GatsbyJS
 
 ### :nut_and_bolt: Development Environment
 
@@ -13,11 +19,17 @@ TODO
 
 - I used Netlify to deploy my project. Don't forget to set your environment variables!
 
-## :camera: Demo
+### :question: FAQ
+
+- Currently supporting only BTC, ETH, and DOGE.
+
+- Nomic's free plan only allows for 1 request/second which is why there is a Loading button after making a request.
+
+### :camera: Demo
 
 https://user-images.githubusercontent.com/8783957/122517153-4d7db600-cfd5-11eb-9675-8dc4ce0886b6.mp4
 
-## :star2: Credit/Acknowledgment
+### :star2: Credit/Acknowledgment
 
 - Julie :stuck_out_tongue_closed_eyes:
 - Bari & Doja :cat:
