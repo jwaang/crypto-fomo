@@ -1,6 +1,6 @@
-// require("dotenv").config({
-//   path: `.env.development`,
-// });
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 module.exports = {
   siteMetadata: {
@@ -11,7 +11,6 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
-    `gatsby-plugin-nodejs`,
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
@@ -20,6 +19,14 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Crypto FOMO",
+        short_name: "Crypto FOMO",
+        icon: "src/images/icon.png",
+      },
     },
   ],
 };

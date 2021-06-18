@@ -24,7 +24,7 @@ const HeroSection = ({ theme }) => {
         return response;
       })
       .catch((e) => {
-        console.log(e.response.statusText);
+        console.log("ERROR", e);
       });
     if (!response) {
       setBuffer(true);
@@ -79,7 +79,6 @@ const ContentWrapper = styled.div`
 const TextWrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  ${"" /* padding: 50px 50px; */}
   text-align: center;
 
   > * {
