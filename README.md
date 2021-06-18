@@ -1,54 +1,23 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# crypto-fomo 😱
 
-## 🚀 Quick start
+## :beginner: About
 
-1.  **Create a Gatsby site.**
+TODO
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+### :nut_and_bolt: Development Environment
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+- Used with [crypto-fomo-serverless](https://github.com/jwaang/crypto-fomo-serverless)
+- Don't forget to create your .env.development file. It should contain a `GATSBY_BASE_PATH` that points to crypto-fomo-serverless.
 
-2.  **Start developing.**
+### :rocket: Deployment
 
-    Navigate into your new site’s directory and start it up.
+- I used Netlify to deploy my project. Don't forget to set your environment variables!
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+## :camera: Demo
 
-3.  **Open the code and start customizing!**
+- TODO
 
-    Your site is now running at http://localhost:8000!
+## :star2: Credit/Acknowledgment
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- Julie :stuck_out_tongue_closed_eyes:
+- Bari & Doja :cat:

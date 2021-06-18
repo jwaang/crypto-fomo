@@ -32,7 +32,6 @@ const Select = styled.select`
   border: none;
 
   option {
-    ${"" /* font-size: 25px; */}
     color: black;
     background: pink;
     display: flex;

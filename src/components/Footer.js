@@ -12,9 +12,15 @@ const Footer = ({ theme }) => (
           ❤️
         </span>{" "}
         by{" "}
-        <a href="https://twitter.com/jwaaang" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/jwaang" target="_blank" rel="noopener noreferrer">
           @jwaaang
         </a>
+      </span>
+    </Text>
+    <Text>
+      Shop responsibly, buy BTC!{" "}
+      <span role="img" aria-label="star-eyes">
+        🤩
       </span>
     </Text>
     <Text>
@@ -31,14 +37,14 @@ const Footer = ({ theme }) => (
 export default Footer;
 
 const FooterGroup = styled.div`
-  padding: 20px 0;
+  padding: 15px 0;
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 8px;
   background: #f2f2f2;
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 3rem;
+  height: 4rem;
   text-align: center;
 `;
 
