@@ -15,8 +15,7 @@ TODO
 
 ## :camera: Demo
 
-https://user-images.githubusercontent.com/8783957/122516963-0abbde00-cfd5-11eb-95d1-ade9bfcba009.mp4
-
+https://user-images.githubusercontent.com/8783957/122517153-4d7db600-cfd5-11eb-9675-8dc4ce0886b6.mp4
 
 ## :star2: Credit/Acknowledgment
 
